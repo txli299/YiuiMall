@@ -12,7 +12,7 @@
 	<artifactId>yiuimall-product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>yiuimall-product</name>
-	<description>yiuimall product service</description>
+	<description>Yiuimall product service</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
@@ -25,6 +25,12 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish/javax.json -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+			<version>1.1.4</version>
 		</dependency>
 
 		<dependency>

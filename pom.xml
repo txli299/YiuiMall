@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.attx.yiuimall</groupId>
 	<artifactId>yiuimall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>yiuimall</name>
-	<description>yiuimall integration</description>
+	<description>Integrated services</description>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>yiuimall-coupon</module>
-		<module>yiuimall-member</module>
-		<module>yiuimall-order</module>
-		<module>yiuimall-product</module>
-		<module>yiuimall-ware</module>
+<!--		<module>yiuimall-coupon</module>-->
+<!--		<module>yiuimall-member</module>-->
+<!--		<module>yiuimall-order</module>-->
+<!--		<module>yiuimall-product</module>-->
+<!--		<module>yiuimall-ware</module>-->
+		<module>renren-fast</module>
 	</modules>
 </project>
