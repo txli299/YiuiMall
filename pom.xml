@@ -7,14 +7,20 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>yiuimall</name>
 	<description>Integrated services</description>
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
 	<packaging>pom</packaging>
 
 	<modules>
-<!--		<module>yiuimall-coupon</module>-->
-<!--		<module>yiuimall-member</module>-->
-<!--		<module>yiuimall-order</module>-->
-<!--		<module>yiuimall-product</module>-->
-<!--		<module>yiuimall-ware</module>-->
+		<module>yiuimall-coupon</module>
+		<module>yiuimall-member</module>
+		<module>yiuimall-order</module>
+		<module>yiuimall-product</module>
+		<module>yiuimall-ware</module>
 		<module>renren-fast</module>
+		<module>renren-generator</module>
+		<module>yiuimall-common</module>
 	</modules>
 </project>
